@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/workspace/react-hello/src/styles/index.scss";
+import "/workspace/todo-list-with-react/src/styles/index.scss";
 
 //create your first component
 const Home = props => {
@@ -15,7 +15,7 @@ const Home = props => {
 
 	return (
 		<div className="titulo">
-			<h1>Todos</h1>
+			<h1>todos</h1>
 			<div className="container d-flex justify-content-center text-align-center">
 				<div>
 					<input
